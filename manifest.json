@@ -1,15 +1,23 @@
 {
   "name": "POSレジアプリ",
   "short_name": "POSレジ",
+  "description": "画像タップで簡単個数選択・レシート発行可能なPOSレジソフト",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f8fafc",
   "theme_color": "#2563eb",
   "icons": [
     {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
